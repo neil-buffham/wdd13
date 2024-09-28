@@ -6,6 +6,8 @@ Fonts are separated by a & */
 
 /*comment to edit when you want hex values to sync
 */
+/*A comment added only because the sync process was refusing
+*/
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #41240d;
