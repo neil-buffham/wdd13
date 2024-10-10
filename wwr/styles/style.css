@@ -1,0 +1,12 @@
+body {
+
+    --primary-color: #41240d;
+    --secondary-color: #16471a;
+    --accent1-color: #5a95be;
+    --accent2-color: #000000;
+}
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    background: #5a95be;
+}
