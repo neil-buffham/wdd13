@@ -9,4 +9,8 @@ body {
     max-width: 1600px;
     margin: 0 auto;
     background: #5a95be;
+    
+}
+nav a, #hero-msg, h1, #hero-msg, h4, .button-box, main section {
+    text-align: center;
 }
