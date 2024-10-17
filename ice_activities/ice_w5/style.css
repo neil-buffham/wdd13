@@ -1,0 +1,19 @@
+#lower {
+    background-color: #737373;
+    text-align: center;
+}
+.wide {
+    width: 100%;
+}
+.circle {
+    display: inline-block;
+    width: 20%;
+    margin: 30px;
+    border: solid 10px #444444;
+    border-radius: 50%;
+}
+body {
+    background-color: #737373;
+    max-width: 1000px;
+    margin: 0 auto;
+}
