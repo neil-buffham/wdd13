@@ -11,7 +11,7 @@ Fonts are separated by a | */
   --highlight-color: #ECECEC;
   --accent1-color: #333333;
   --accent2-color: #3F72AF;
-  --secondary-color: #A7C7E7;
+  --secondary-color: #91bae2;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Inter";
@@ -21,10 +21,10 @@ Fonts are separated by a | */
   --headline-color-on-white: #3F72AF;  /* headlines on a white background */ 
   --headline-color-on-color: #333333; /* headlines on a colored background */ 
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: #333333; /* paragraph text on a colored background */ 
   --paragraph-background-color: #F8F9FA  ;
-  --nav-link-color: #3F72AF;
-  --nav-background-color: #A7C7E7;
+  --nav-link-color: #333333;
+  --nav-background-color: #3f72af;
   --nav-hover-link-color: black;
   --nav-hover-background-color: #3F72AF;
 }
