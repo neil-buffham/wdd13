@@ -5,11 +5,11 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary_background: #F8F9FA;
-  --secondary_background: #ECECEC;
-  --primary_text: #333333;
-  --accent_color: #3F72AF;
-  --highlight_color: #A7C7E7;
+  --primary_color: #F8F9FA;
+  --highlight-color: #ECECEC;
+  --accent1-color: #333333;
+  --accent2-color: #3F72AF;
+  --secondary_color: #A7C7E7;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Inter";
