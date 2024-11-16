@@ -8,6 +8,29 @@ body {
     margin: 0;
     padding: 0;
 }
+header {
+    background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    margin-left: 40px;
+    height: 60px;
+}
+nav a {
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+
+}
+nav a:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
 .home-title {
     font-size: 2em;
     margin-top: 10px;
@@ -76,26 +99,7 @@ body {
     background-color: var(--accent1-color); 
     color: black;
 }
-header {
-    background-color: var(--accent1-color);
-    display: grid;
-    grid-template-columns: 150px auto;
-}
-nav {
-    display: flex;
-    justify-content: space-around;
-}
-nav a {
-    padding: 15px;
-    color: white;
-    text-decoration: none;
-    text-align: center;
 
-}
-nav a:hover {
-    background-color: var(--accent1-color);
-    color: white;
-}
 .book, .join {
     background-color: var(--secondary-color);
     color: black;
@@ -152,8 +156,8 @@ nav a:hover {
     grid-row: 5/8;
 }
 .msg {
-    background-color: var(--accent1-color);
-    color: darkgrey;
+    background-color: var(--primary-color);
+    color: lightgrey;
     font-size: 0.8em;
     line-height: 1.5em;
     padding: 35px;
@@ -164,26 +168,72 @@ nav a:hover {
     padding-bottom: 15px;
 }
 footer {
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     color: lightgrey;
     padding: 25px 50px;
-    margin-top: 200px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 footer a {
-    background-color: var(--accent1-color);
     color: lightgrey;
     text-decoration: none;
     font-size: 1.1em;
+    padding: 10px;
 }
 footer a:hover {
     background-color: var(--accent1-color);
-    color: var(--primary-color);
-    text-decoration: underline;
+    color:lightgrey;
+    text-decoration: none;
 }
 footer .social img {
     padding-top: 15px;
-    margin-top: 200px
+    margin-top: 20px
+}
+/* __________________________________________________________This content is for the FAQ Page________________________ */
+
+.faq_hero {
+    position: relative;
+    text-align: center;
+    color: lightgrey;
+}
+#faq_img_text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: var(--accent1-color);
+    font-size: 50px;
+    padding: 10px 25px;
+    opacity: 80%;
+}
+.divider_bar {
+    margin: auto;
+    background-color: var(--secondary-color);
+    width: 100%;
+    height: 20px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+.faq_body_text {
+    background-color: lightgrey;
+    text-align: left;
+    padding: 30px;
+}
+h3 {
+    font-size: 25px;
+}
+.faq_p {
+    text-indent: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+.faq_indent2 {
+    text-indent: 90px;
+}
+.faq_indent3 {
+    padding-left: 140px;
+
 }
