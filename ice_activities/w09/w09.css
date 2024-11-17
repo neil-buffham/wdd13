@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+    margin: auto;
+}
+img {
+    width: 500px;
+
+}
+h4 {
+    color: #405c8b;
+}
+h1 {
+    font-weight: bold;
+}
+p {
+    color: #8b808b;
+}
+#boxes {
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px;
+    background-color: #3f5b8b;
+}
+#box1 {
+    grid-column: 0 / 1;
+    grid-row: 0 / 1;
+}
+#box2 {
+    grid-column: 1 / 2;
+}
+#box3 {
+    grid-column: 2 / 3;
+}
