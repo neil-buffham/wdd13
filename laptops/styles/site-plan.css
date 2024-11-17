@@ -12,7 +12,7 @@ Fonts are separated by a | */
   --highlight-color: #ECECEC;
   --accent1-color: #333333;
   --accent2-color: #3F72AF;
-  --secondary-color: #91bae2;
+  --secondary-color: black;
   --tertiary-color: #ffffff;
 
   /* change the values below to your chosen font(s) */
@@ -25,12 +25,17 @@ Fonts are separated by a | */
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #333333; /* paragraph text on a colored background */ 
   --paragraph-background-color: #F8F9FA  ;
-  --nav-link-color: #333333;
-  --nav-background-color: #3f72af;
-  --nav-hover-link-color: black;
-  --nav-hover-background-color: #3F72AF;
+  --nav-link-color: white;
+  --nav-background-color: black;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #333333;
 }
 
+
+/* I added this part to fix some image issues */
+.wireframe_img {
+  width: 1000px;
+}
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
