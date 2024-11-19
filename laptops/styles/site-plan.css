@@ -33,6 +33,8 @@ Fonts are separated by a | */
 
 /* I added this part to fix some image issues */
 .wireframe_img {
+  display: block;
+  margin: 0 auto;
   width: 1000px;
 }
 
