@@ -1,0 +1,98 @@
+body {
+    --primary-color: #333333;
+    --secondary-color: #d4b16a;
+    --accent1-color: black;
+    --accent2-color: lightgrey;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: var(--accent1-color);
+    display: grid;
+    grid-template-columns: 70px auto;
+}
+#logo_link {
+    padding-top: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    justify-self: left;
+    align-self: center;
+}
+.logo {
+    width: 50px;
+    padding-left: 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 40px;
+
+}
+nav a {
+    height: 30px;
+    padding: 18px 40px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+#active_nav {
+    background: var(--primary-color);
+}
+
+
+
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+main {
+    min-height: 700px;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+h2 {
+    margin: 0;
+}
+
+
+
+body {
+    background-color: var(--accent2-color); 
+    color: lightgrey;
+}
+
+footer {
+    background-color: var(--accent1-color);
+    color: lightgrey;
+    padding: 25px 50px 30px 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: lightgrey;
+    text-decoration: none;
+    font-size: .9em;
+    padding: 10px;
+}
+footer p {
+    max-width: 500px;
+    font-size: .7em;
+    text-align: center;
+}
+footer a:hover {
+    background-color: var(--accent1-color);
+    color:lightgrey;
+    text-decoration: none;
+}
