@@ -7,7 +7,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
-    background-color: var(--accent2-color); 
+    background-color: var(--accent2-color);
 }
 header {
     background-color: var(--accent1-color);
@@ -66,17 +66,21 @@ h2 {
     text-align: center;
     /* margin: 0; */
 }
+tr {
+    width: auto;
+}
+
 table {
     margin: auto;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    /* max-width: max-content; */
+    max-width: 90%;
     /* margin: 50px; */
-    
+
 }
 
-table.laptop_table, th, td {
+table, th, td {
     color: black;
     background-color: white;
     border:  1px solid black;
@@ -88,9 +92,6 @@ th {
 th, td {
     padding: 5px 5px 5px 8px;
     /* width: 100%; */
-}
-tr {
-    width: auto;
 }
 
 
