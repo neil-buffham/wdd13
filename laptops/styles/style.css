@@ -94,6 +94,16 @@ th, td {
     /* width: 100%; */
 }
 
+#gallery_div {
+    margin: auto;
+    max-width: 70%;
+    text-align: center;
+}
+.glry {
+    display: inline-block;
+    width: 600px;
+
+}
 
 footer {
     background-color: var(--accent1-color);
