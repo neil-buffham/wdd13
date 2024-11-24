@@ -61,10 +61,36 @@ h1 {
     text-align: center;
 }
 h2 {
-    margin: 0;
+    color: black;
+    text-align: center;
+    /* margin: 0; */
+}
+table {
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    /* max-width: max-content; */
+    /* margin: 50px; */
+    
 }
 
-
+table.laptop_table, th, td {
+    color: black;
+    background-color: white;
+    border:  1px solid black;
+    border-collapse: collapse;
+}
+th {
+    text-align: center;
+}
+th, td {
+    padding: 5px 5px 5px 8px;
+    /* width: 100%; */
+}
+tr {
+    width: auto;
+}
 
 body {
     background-color: var(--accent2-color); 
