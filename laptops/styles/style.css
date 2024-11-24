@@ -7,6 +7,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
+    background-color: var(--accent2-color); 
 }
 header {
     background-color: var(--accent1-color);
@@ -92,10 +93,6 @@ tr {
     width: auto;
 }
 
-body {
-    background-color: var(--accent2-color); 
-
-}
 
 footer {
     background-color: var(--accent1-color);
