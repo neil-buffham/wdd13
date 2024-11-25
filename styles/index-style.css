@@ -1,1 +1,40 @@
-img
+header {
+    background-color: rgb(76, 76, 76);
+    color: white;
+    display: grid;
+    grid-template-columns: 150px auto;
+    padding: 23px 20px 21px 20px;
+    text-decoration: none;
+}
+.nav {
+    display: flex;
+    justify-content:space-evenly;
+}
+nav a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border: solid 1px  rgb(76, 76, 76);
+}
+nav a:hover {
+    border: solid 1px white;
+}
+body {
+    background-color: lightgrey;
+    margin: 0;
+}
+#main {
+    margin: 20px;
+}
+h1 {
+    text-align: center;
+    margin: 40 auto 40;
+}
+
+#frogimg {
+    display: block;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+}
