@@ -21,11 +21,17 @@
             </nav>
         </header>
 
-        <main >
+        <main>
             <div>
                 <h2>This is the raw data</h2>
             </div>
-            <table>
+            <button class="collapsible">Open/Close X Series</button>
+            <div class="collapse">
+                <p>
+                    X Series Laptops
+                </p>
+            
+            <table id="x_series">
                 <thead>
                     <tr>
                         <th title="Field #1">Model</th>
@@ -1277,19 +1283,34 @@
                         <td>0</td>
                         <td>8/16/32gb</td>
                     </tr>
+                </tbody>
+            </table>
+        </div>
+            <button class="collapsible">Open/Close T Series</button>
+            
+            <div class="collapse">
+                <p>
+                    T Series Laptops
+                </p>
+            
+            <table id="t_series">
+                <thead>
                     <tr>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
+                        <th title="Field #1">Model</th>
+                        <th title="Field #2">sheet</th>
+                        <th title="Field #3">available</th>
+                        <th title="Field #4">external battery</th>
+                        <th title="Field #5">dock</th>
+                        <th title="Field #6">USB C</th>
+                        <th title="Field #7">cpu</th>
+                        <th title="Field #8">Memory type</th>
+                        <th title="Field #9">memory max</th>
+                        <th title="Field #10">ram slot</th>
+                        <th title="Field #11">Soldered ram</th>
                     </tr>
+                </thead>
+                <tbody>
+
                     <tr>
                         <td>t20</td>
                         <td>yes*</td>
@@ -2773,58 +2794,32 @@
                         <td> </td>
                         <td> </td>
                     </tr>
+                </tbody>
+            </table>
+            </div>
+            <button class="collapsible">Open/Close L Series</button>
+            <div class="collapse">  
+                <p>
+                    L Series Laptops
+                </p>
+            
+            <table id="l_series">
+                <thead>
                     <tr>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
+                        <th title="Field #1">Model</th>
+                        <th title="Field #2">sheet</th>
+                        <th title="Field #3">available</th>
+                        <th title="Field #4">external battery</th>
+                        <th title="Field #5">dock</th>
+                        <th title="Field #6">USB C</th>
+                        <th title="Field #7">cpu</th>
+                        <th title="Field #8">Memory type</th>
+                        <th title="Field #9">memory max</th>
+                        <th title="Field #10">ram slot</th>
+                        <th title="Field #11">Soldered ram</th>
                     </tr>
-                    <tr>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                    </tr>
-                    <tr>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                    </tr>
-                    <tr>
-                        <td>L Series</td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                        <td> </td>
-                    </tr>
+                </thead>
+                <tbody>
                     <tr>
                         <td>L412</td>
                         <td> </td>
@@ -3516,14 +3511,34 @@
                     </tr>
                 </tbody>
             </table>
+            </div>
         </main>
         <footer>
             <p>notchoosingadomainyet.com &copy; 2024 - Neil Buffham</p>
-            <p> All information provided without any guarantee. Not associated or affiliated with any company, manufacturer, website, or organization.</p>
+            <p> All information provided without any guarantee. Not associated or affiliated with any company,
+                manufacturer, website, or organization.</p>
             <a href="about.html">About</a>
-            
+
         </footer>
     </div> <!-- id="content" -->
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+        
+        for (i = 0; i < coll.length; i++) {
+          coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var collapse = this.nextElementSibling;
+            if (collapse.style.display === "block") {
+              collapse.style.display = "none";
+            } else {
+              collapse.style.display = "block";
+            }
+          });
+        }
+        </script>   
+
 </body>
 
 </html>
