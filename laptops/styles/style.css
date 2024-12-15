@@ -78,6 +78,7 @@ table {
     margin-right: auto;
     text-align: left;
     width: 100%;
+    word-wrap: break-word;
     /* margin: 50px; */
 
 }
