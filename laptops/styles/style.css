@@ -167,3 +167,24 @@ footer a:hover {
   overflow: hidden;
   background-color: #f1f1f1;
 }
+
+.homeimg {
+    width: 400px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+#unfilteredimages {
+    text-align: center;
+}
+.unfiltimg {
+    width: 400px;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.skinnyimg {
+    width: 600px;
+}
